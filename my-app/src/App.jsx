@@ -13,7 +13,7 @@ function App() {
     <>
       <Profile
         username={user.username}
-        tag={user.tag}
+        tag={user.tag}  
         location={user.location}
         avatar={user.avatar}
         followers={user.stats.followers}
