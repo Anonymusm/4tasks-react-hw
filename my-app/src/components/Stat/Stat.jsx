@@ -1,4 +1,4 @@
-export const Stat = ({ stats }) => {
+export default function Stat ({ stats }) {
   return (
     <>
       <h2>Upload Stats</h2>

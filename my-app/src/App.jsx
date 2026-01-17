@@ -1,6 +1,6 @@
 import "./App.css";
 import { Profile } from "./components/Profile/Profile";
-import { Stat } from "./components/Stat/Stat";
+import Stat from "./components/Stat/Stat";
 import { FriendsList } from "./components/FreindsList/FriendsList";
 import { TransactionHistory } from "./components/TransactionHistory/TransactionHistory";
 import user from "./user.json";
