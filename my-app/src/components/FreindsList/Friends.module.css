@@ -1,0 +1,48 @@
+.friends {
+  padding: 30px;
+  background-color: #e7e7e7;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    width: 120px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+}
+
+.picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+}
+
+.onlineStatus {
+    font-size: 10px;
+    margin: 0;
+    color: green;
+}
